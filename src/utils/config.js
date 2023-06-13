@@ -2,8 +2,9 @@ import Sequelize from "sequelize";
 
 const sequelize = new Sequelize({
     host: 'localhost',
-    udername: 'root',
-    dabase: 'bd-Squeliz',
+    username: 'root',
+    password: '',
+    database: 'squeliz',
     dialect: 'mysql'
 })
 
